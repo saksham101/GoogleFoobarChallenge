@@ -58,8 +58,7 @@ Output:
 
 # returns total henchmen will be paid after generous distribution
 def generous_count(total_lambs) :
-    count_generous = 0
-    i = 0
+    (count_generous,i) = (0,0) 
     while( i <= total_lambs ) :
         i += 2**count_generous
         count_generous += 1
@@ -67,11 +66,7 @@ def generous_count(total_lambs) :
 
 # returns total henchmen will be paid after stingy distribution
 def stingy_count(total_lambs) :
-    count_stingy = -1
-    i = 0
-    num = 0
-    num1 = 0
-    num2 = 1
+    (count_stingy,i,num,num1,num2) = (-1,0,0,0,1)
     while( i <= total_lambs ) :
         i += num1
         count_stingy += 1
