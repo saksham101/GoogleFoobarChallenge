@@ -1,4 +1,5 @@
-# CHALLENGE 2
+# CHALLENGE 1
+# Level 2
 
 """
 Lovely Lucky LAMBs
